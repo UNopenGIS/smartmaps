@@ -5,6 +5,7 @@ on:
       - main
 permissions:
   contents: write
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -30,11 +31,11 @@ jobs:
         with:
           entrypoint: mkdocs
           args: build --config-file=mkdocs.ja.yml
-    - name: Build EN 🇬🇧 docs
-        uses: ./
-        with:
-          entrypoint: mkdocs
-          args: build --config-file=mkdocs.yml --dirty
-    - run: mkdocs gh-deploy --force
+      - name: Build EN 🇬🇧 docs
+          uses: ./
+          with:
+            entrypoint: mkdocs
+            args: build --config-file=mkdocs.yml --dirty
+      - run: mkdocs gh-deploy --force
 env:
   GH_TOKEN: ${{secrets.GH_ACTIONS_TOKEN}}
