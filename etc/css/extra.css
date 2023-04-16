@@ -1,0 +1,32 @@
+.md-header, .md-tabs{
+    background: #2774ae !important;
+}
+/* .md-typeset code {
+	background-color: #c2d7e5;
+} */
+
+/* .md-typeset code, .md-typeset kbd, .md-typeset pre {
+	color: #000
+} */
+
+/* .md-typeset a{
+    color:#2774ae
+} */
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 265; /* [0, 360] */
+    /* --md-code: [0, 360] */
+  }
+
+/* :root {
+    --md-primary-bg-color:        #2774ae;
+
+  }
+  :root > * {
+    --md-code-bg-color:#2774ae;
+} */
+
+
+.highlight .c, .highlight .c1, .highlight .ch, .highlight .cm, .highlight .cs, .highlight .sd {
+  color: #9e5ed9;
+}
