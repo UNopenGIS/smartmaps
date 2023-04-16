@@ -1,0 +1,8 @@
+mkdocs-macros-plugin
+mkdocs-encryptcontent-plugin
+mkdocs-git-revision-date-plugin
+pygments
+pymdown-extensions
+mkdocs-table-reader-plugin
+mkdocs-material
+mkdocs-awesome-pages-plugin

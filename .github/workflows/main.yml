@@ -1,0 +1,40 @@
+name: Deploy Documentation 
+on:
+  push:
+    branches: 
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.event.repository.fork == false
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      # - run: pip install mkdocs-material
+      - run: pip install git+https://${GH_ACTIONS_TOKEN}@github.com/UNopenGIS/mkdocs-material-insiders.git
+      - run: pip install mkdocs-macros-plugin
+      - run: pip install mkdocs-encryptcontent-plugin
+      - run: pip install mkdocs-git-revision-date-plugin
+      - run: pip install mkdocs-awesome-pages-plugin
+      - run: pip install pygments
+      - run: pip install pymdown-extensions
+      - run: pip install mkdocs-table-reader-plugin   
+      - name: Build JA 🇯🇵 docs
+        uses: ./
+        with:
+          entrypoint: mkdocs
+          args: build --config-file=mkdocs.ja.yml
+    - name: Build EN 🇬🇧 docs
+        uses: ./
+        with:
+          entrypoint: mkdocs
+          args: build --config-file=mkdocs.yml --dirty
+    - run: mkdocs gh-deploy --force
+env:
+  GH_TOKEN: ${{secrets.GH_ACTIONS_TOKEN}}
