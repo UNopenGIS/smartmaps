@@ -30,6 +30,22 @@ jobs:
         run: mkdocs build --config-file=mkdocs.ja.yml
       - name: Build EN 🇬🇧 docs
         run: mkdocs build --config-file=mkdocs.yml --dirty
-      - run: mkdocs gh-deploy --force
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Deploy docs to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ GH_TOKEN }}
+          publish_dir: ./site
+
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+
+      # - run: mkdocs gh-deploy --force --dirty
 env:
   GH_TOKEN: ${{secrets.GH_ACTIONS_TOKEN}}
