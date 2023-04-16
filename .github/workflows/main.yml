@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: 3.x
       # - run: pip install mkdocs-material
-      - run: pip install git+https://${GH_ACTIONS_TOKEN}@github.com/UNopenGIS/mkdocs-material-insiders.git
+      - run: pip install git+https://${GH_TOKEN}@github.com/UNopenGIS/mkdocs-material-insiders.git
       - run: pip install mkdocs-macros-plugin
       - run: pip install mkdocs-encryptcontent-plugin
       - run: pip install mkdocs-git-revision-date-plugin
