@@ -4,31 +4,27 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "UN Open GIS Logo",
+    "message": "UN Open GISロゴ",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
-  },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "ブログ",
     "description": "Navbar item with label Blog"
   },
   "item.label.Use Cases": {
-    "message": "Use Cases",
+    "message": "ユースケース",
     "description": "Navbar item with label Use Cases"
   },
   "item.label.GitHub": {
-    "message": "GitHub",
+    "message": "",
     "description": "Navbar item with label GitHub"
   },
   "item.label.About": {
-    "message": "About",
+    "message": "アバウト",
     "description": "Navbar item with label About"
   },
   "item.label.Resources": {
-    "message": "Resources",
+    "message": "ツールとリソース",
     "description": "Navbar item with label Resources"
   }
 }
