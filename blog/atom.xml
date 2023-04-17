@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://unopengis.github.io/7-docs/blog</id>
+    <title>UN Open GIS Initiative DWG7 on Smart Maps Blog</title>
+    <updated>2023-04-16T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://unopengis.github.io/7-docs/blog"/>
+    <subtitle>UN Open GIS Initiative DWG7 on Smart Maps Blog</subtitle>
+    <icon>https://unopengis.github.io/7-docs/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[🎉 WD7 Documentation Launch 🎉]]></title>
+        <id>https://unopengis.github.io/7-docs/blog/wd7-documentation-launch</id>
+        <link href="https://unopengis.github.io/7-docs/blog/wd7-documentation-launch"/>
+        <updated>2023-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The WD7 is re-working the documentation of related projects and usage of technologies related to open maps.]]></summary>
+        <content type="html"><![CDATA[<p>The WD7 is re-working the documentation of related projects and usage of technologies related to open maps.</p>]]></content>
+        <author>
+            <name>Albert Kochaphum</name>
+            <uri>https://github.com/albertkun</uri>
+        </author>
+        <category label="documentation" term="documentation"/>
+    </entry>
+</feed>
