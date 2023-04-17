@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "UN Open GIS",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "UN Open GIS Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Use Cases": {
+    "message": "Use Cases",
+    "description": "Navbar item with label Use Cases"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.About": {
+    "message": "About",
+    "description": "Navbar item with label About"
+  },
+  "item.label.Resources": {
+    "message": "Resources",
+    "description": "Navbar item with label Resources"
+  }
+}
