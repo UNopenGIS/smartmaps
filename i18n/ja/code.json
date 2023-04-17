@@ -286,9 +286,18 @@
     "message": "誰でもDW7スマートマップグループに参加できます。私たちは、誰からでも貢献を歓迎します。"
   },
   "UN Open GIS Initiative DWG7 on Smart Maps": {
-    "message": "UN　オーペン　GIS　イニシアティブ　DWG7　スマートマップ"
+    "message": "UNオーペンGISイニシアティブDWG7スマートマップ"
   },
   "Keep web maps open for a better world": {
     "message": "世界をより良くするためにウェブマップを開いてください"
+  },
+  "Open community": {
+    "message": "オープンコミュニティ"
+  },
+  "Open Source": {
+    "message": "オープンソース"
+  },
+  "Open practice": {
+    "message": "オープンプラクティス"
   }
 }

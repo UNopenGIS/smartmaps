@@ -5,7 +5,7 @@ import Translate from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Open Source',
+    title: (<Translate>Open Source</Translate>),
     Svg: require('@site/static/img/undraw_connected_world.svg').default,
     description: (
       <>
@@ -17,7 +17,7 @@ const FeatureList = [
     link: "./resources/"
   },
   {
-    title: 'Open practice',
+    title: (<Translate>Open practice</Translate>),
     Svg: require('@site/static/img/undraw_world_looking.svg').default,
     description: (
       <>
@@ -29,7 +29,7 @@ const FeatureList = [
     link: "./use-cases/",
   },
   {
-    title: 'Open community',
+    title: (<Translate>Open community</Translate>),
     Svg: require('@site/static/img/undraw_world_map.svg').default,
     description: (
       <>
@@ -51,7 +51,9 @@ function Feature({Svg, title, description,link}) {
       </div>
       </a>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h3>
+            {title}
+          </h3>
         <p>
             {description}
           </p>
