@@ -3,9 +3,8 @@ on:
   push:
     branches: 
       - main
-      
-permissions:
-  contents: write
+  workflow_dispatch:
+
   
 jobs:
   deploy-documentation:
