@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "UN Open GIS Initiative DWG7 on Smart Maps",
-  tagline: "Keep web maps open for a better world ",
+  tagline: "Keep web maps open for a better world",
   url: "https://unopengis.github.io",
   baseUrl: "/7-docs/",
   onBrokenLinks: "warn",

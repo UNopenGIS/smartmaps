@@ -16,12 +16,12 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">
           <Translate>
-            {siteConfig.title}  
+            UN Open GIS Initiative DWG7 on Smart Maps
           </Translate>
         </h1>
         <p className="hero__subtitle">
           <Translate>
-            {siteConfig.tagline}
+            Keep web maps open for a better world
           </Translate>
         </p>
         <div className={styles.buttons}>
