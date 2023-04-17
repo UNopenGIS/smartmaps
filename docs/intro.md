@@ -1,9 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# 7
-
-UN Open GIS Initiative DWG7 on Smart Maps
+# UN Open GIS Initiative DWG7 on Smart Maps
 
 - [Project Document](https://github.com/UNopenGIS/7/wiki/Project-Document)
 - [Project Kanban](https://github.com/orgs/UNopenGIS/projects/1/views/1)
