@@ -29,7 +29,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro">
               <Translate>
-                What is DW7 Smart Maps? - 5 min ⏱️
+                What is Smart Maps?
               </Translate>
            </Link>
         </div>

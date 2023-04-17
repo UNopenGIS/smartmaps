@@ -273,8 +273,8 @@
     "message": "タグ",
     "description": "The title of the tag list page"
   },
-  "What is DW7 Smart Maps? - 5 min ⏱️": {
-    "message": "DW7スマートマップとは？ - 5分 ⏱️"
+  "What is Smart Maps?": {
+    "message": "スマートマップとは？"
   },
   "All tools and data created from DW7 projects are open source.": {
     "message": "すべてのツールとデータはオープンソースです。"
