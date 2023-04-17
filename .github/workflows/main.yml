@@ -3,9 +3,8 @@ on:
   push:
     branches: 
       - main
-      
-permissions:
-  contents: write
+  workflow_dispatch:
+
   
 jobs:
   deploy-documentation:
@@ -32,7 +31,7 @@ jobs:
         - name: Deploy Documentation to GitHub Pages
           uses: peaceiris/actions-gh-pages@v3
           with:
-            github_token: ${{ secrets.METRO_GITHUB_TOKEN }}
+            github_token: ${{ secrets.GH_ACTIONS_TOKEN }}
             publish_dir: ./build
             publish_branch: gh-pages
             user_name: github-actions[bot]
