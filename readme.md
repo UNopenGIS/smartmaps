@@ -8,7 +8,7 @@ This is the documentation for the UN DW7 project for interested and existing vol
 ### Installation　/ インストール
 
 ```
-$ yarn
+$ yarn install
 ```
 
 ### Local Development　/ ローカル開発
