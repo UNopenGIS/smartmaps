@@ -1,6 +1,6 @@
 # Smart Maps Bazaar Walking Tour
 
-### Event Details
+## Event Details
 Time: TBD Q2 2023
 Location: Virtual
 
