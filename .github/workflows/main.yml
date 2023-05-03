@@ -21,14 +21,17 @@ jobs:
           id: changed-documentation
           uses: tj-actions/changed-files@v35
           with:
-            files: docs
+            files: docs, blog, i18n, docusaurus.config.js, sidebars.js, package.json, yarn.lock, src
         - name: Install dependencies
+          if: steps.changed-documentation.outputs.files_changed == 'true'
           working-directory: ./
           run: yarn install
         - name: Build website
+          if: steps.changed-documentation.outputs.files_changed == 'true'
           working-directory: ./
           run: yarn build
         - name: Deploy Documentation to GitHub Pages
+          if: steps.changed-documentation.outputs.files_changed == 'true'
           uses: peaceiris/actions-gh-pages@v3
           with:
             github_token: ${{ secrets.GH_ACTIONS_TOKEN }}
