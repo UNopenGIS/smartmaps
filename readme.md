@@ -43,7 +43,19 @@ $ yarn write-translations --locale ja
 
 This creates a new folder in the `i18n` directory called `ja` which contains all the translated files. You can then edit the files in the `ja` directory to translate the website.
 
+If you want to change or add Japanese only markdown files, then please edit the files in this directory: 
+
+`i18n\ja\docusaurus-plugin-content-docs\current`
+
+The structure is the same as the `docs` directory, but you can modify it to make it unique to the Japanese site.
+
 これにより、すべての翻訳されたファイルが含まれる`i18n`ディレクトリに`ja`という名前の新しいフォルダーが作成されます。次に、`ja`ディレクトリ内のファイルを編集して、ウェブサイトを翻訳できます。
+
+もし、日本語のみのマークダウンファイルを変更または追加したい場合は、このディレクトリのファイルを編集してください。
+
+`i18n\ja\docusaurus-plugin-content-docs\current`
+
+構造は`docs`ディレクトリと同じですが、日本語サイトに固有のものに変更できます。
 
 ### Build　/ ビルド
 
