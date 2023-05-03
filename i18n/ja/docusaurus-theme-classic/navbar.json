@@ -16,7 +16,7 @@
     "description": "Navbar item with label Use Cases"
   },
   "item.label.GitHub": {
-    "message": "",
+    "message": "GitHub",
     "description": "Navbar item with label GitHub"
   },
   "item.label.About": {
