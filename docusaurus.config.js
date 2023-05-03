@@ -29,6 +29,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/",
+          breadcrumbs: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -66,21 +68,22 @@ const config = {
         },
         items: [
           {
-            to: "/docs/about",
+            to: "/about",
             position: "left",
             label: "About"
           },
           {
             label: "Resources",
             position: "left",
-            to: "/docs/resources"
+            to: "/resources"
           },
           {
             label: "Use Cases",
             position: "left",
-            to: "/docs/use-cases"
+            to: "/use-cases"
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/get-involved", label: "Get Involved", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",
             position: "right",

@@ -5,6 +5,11 @@ This is the documentation for the UN DW7 project for interested and existing vol
 
 このドキュメントは、UN DW7プロジェクトに興味を持っている方や、既存のボランティアの方向けのドキュメントです。このウェブサイトは[Docusaurus 2](https://docusaurus.io/)を使用して構築されています。
 
+### Requirements / 必要条件
+
+- Node.js version >= 12.13.0.
+- Yarn version >= 1.5 (or npm version >= 5.0).
+
 ### Installation　/ インストール
 
 ``` bash
@@ -33,7 +38,7 @@ This command starts up a Japanese version of the local development server and op
 ### Japanese Translation / 日本語翻訳
 
 ``` bash
-$ docusaurus write-translations --locale ja
+$ yarn write-translations --locale ja
 ```
 
 This creates a new folder in the `i18n` directory called `ja` which contains all the translated files. You can then edit the files in the `ja` directory to translate the website.
