@@ -11,19 +11,17 @@ jobs:
       runs-on: ubuntu-latest
       name: Deploy Documentation to GitHub Pages
       steps:
-        - name: 🔎 Check for change in docs folder
-          id: changed-documentation
-          uses: tj-actions/changed-files@v35
-          with:
-            files_ignore: readme.md      
         - uses: actions/checkout@v3
-          if: steps.changed-documentation.outputs.files_changed == 'true'
         - uses: actions/setup-node@v3
-          if: steps.changed-documentation.outputs.files_changed == 'true'
           with:
             node-version: 18
             cache: yarn
             cache-dependency-path: "./package.json"
+        - name: 🔎 Check for change in docs folder
+          id: changed-documentation
+          uses: tj-actions/changed-files@v35
+          with:
+            files_ignore: readme.md
         - name: Install dependencies
           if: steps.changed-documentation.outputs.files_changed == 'true'
           working-directory: ./

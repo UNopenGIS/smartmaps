@@ -72,7 +72,7 @@ This command generates static content into the `build` directory and can be serv
 Pushing to the `main` branch will trigger a deployment to GitHub pages through GitHub actions.
 
 メインブランチにプッシュすると、GitHubアクションを介してGitHubページにデプロイされます。
-
+<!-- 
 ### Manually Deploying / 手動デプロイ
 
 Using SSH / SSHを使用する場合:
@@ -85,5 +85,5 @@ Not using SSH / SSHを使用しない場合:
 
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
-```
+``` -->
 
