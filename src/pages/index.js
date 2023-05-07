@@ -27,7 +27,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="about/intro">
               <Translate>
                 What is Smart Maps?
               </Translate>
