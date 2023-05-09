@@ -1,16 +1,16 @@
 # Smart Maps Bazaar Walking Tour
 
-## Event Details
-Time: TBD Q2 2023
+## Date and Location
+Date: TBD Q2 2023
 Location: Virtual
 
-#### Event Description
+#### Overview
 The Smart Maps Bazaar is a virtual walking tour of the Smart Maps Bazaar. The tour will be led by the Smart Maps Bazaar team and will include a live Q&A session.
 
-#### Event Registration
+#### Registration
 Registration for this event is not yet open. Please check back later.
 
-#### Event Schedule
+#### Schedule
 TBD
 
 ## Smart Maps Bazaar Details
