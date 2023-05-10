@@ -1,7 +1,7 @@
-# Resources
+# リソース
 
 
-## Tools
+## ツール
 
 ### UN Vector Tile Toolkit
 
@@ -9,11 +9,9 @@
 - [UN VT - Training](https://github.com/ubukawa/training4unvt)
 
 
-## Resources
+## データ
 
-## Data
-
-## Use Cases
+## 例え
 
 [Use Cases](./use-cases/)
 

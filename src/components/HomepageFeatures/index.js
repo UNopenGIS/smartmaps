@@ -22,7 +22,7 @@ const FeatureList = [
     description: (
       <>
         <Translate>
-            The DW7 Smart Maps Group is a community of practice. We share best practices and lessons learned.
+            The UN Smart Maps Group is a community of practice. We share best practices and lessons learned.
         </Translate>
       </>
     ),
@@ -34,7 +34,7 @@ const FeatureList = [
     description: (
       <>
       <Translate>
-        Anyone can join the DW7 Smart Maps Group. We welcome contributions from anyone.
+        Anyone can join the UN Smart Maps Group. We welcome contributions from anyone.
       </Translate>
       </>
     ),

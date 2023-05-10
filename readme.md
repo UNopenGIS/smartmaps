@@ -1,9 +1,9 @@
-# UN DW7 Documentation
+# UN Smart Maps Documentation
 
-This is the documentation for the UN DW7 project for interested and existing volunteers. This website is built using [Docusaurus 2](https://docusaurus.io/).
+This is the documentation for the UN Smart Maps project for interested and existing volunteers. This website is built using [Docusaurus 2](https://docusaurus.io/).
 
 
-このドキュメントは、UN DW7プロジェクトに興味を持っている方や、既存のボランティアの方向けのドキュメントです。このウェブサイトは[Docusaurus 2](https://docusaurus.io/)を使用して構築されています。
+このドキュメントは、UN Smart Mapsプロジェクトに興味を持っている方や、既存のボランティアの方向けのドキュメントです。このウェブサイトは[Docusaurus 2](https://docusaurus.io/)を使用して構築されています。
 
 ### Requirements / 必要条件
 

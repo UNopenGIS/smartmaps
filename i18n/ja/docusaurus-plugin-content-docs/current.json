@@ -1,10 +1,10 @@
 {
+  "sidebar.getInvolved.category.イベントのお知らせ": {
+    "message": "イベントのお知らせ",
+    "description": "The label for category イベントのお知らせ in sidebar getInvolved"
+  },
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
-  },
-  "sidebar.getInvolved.category.Events": {
-    "message": "Events",
-    "description": "The label for category Events in sidebar getInvolved"
   }
 }

@@ -16,7 +16,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">
           <Translate>
-            UN Open GIS Initiative DWG7 on Smart Maps
+            UN Smart Maps
           </Translate>
         </h1>
         <p className="hero__subtitle">
@@ -29,7 +29,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="about/intro">
               <Translate>
-                What is Smart Maps?
+                What is UN Smart Maps?
               </Translate>
            </Link>
         </div>

@@ -1,7 +1,4 @@
 {
-  "Docusaurus Tutorial - 5min ⏱️": {
-    "message": "ドキュメントの説明 - 5min ⏱️"
-  },
   "theme.ErrorPageContent.title": {
     "message": "エラーが発生しました",
     "description": "The title of the fallback page when the page crashed"
@@ -273,20 +270,17 @@
     "message": "タグ",
     "description": "The title of the tag list page"
   },
-  "What is Smart Maps?": {
-    "message": "スマートマップとは？"
+  "What is UN Smart Maps?": {
+    "message": "国連スマート地図とは？"
   },
   "All tools and data created from DW7 projects are open source.": {
     "message": "すべてのツールとデータはオープンソースです。"
   },
-  "The DW7 Smart Maps Group is a community of practice. We share best practices and lessons learned.": {
-    "message": "DWG 7は、実践的なコミュニティです。私たちは、ベストプラクティスと学んだことを共有します。"
+  "The UN Smart Maps Group is a community of practice. We share best practices and lessons learned.": {
+    "message": "国連スマート地図は、実践的なコミュニティです。私たちは、ベストプラクティスと学んだことを共有します。"
   },
-  "Anyone can join the DW7 Smart Maps Group. We welcome contributions from anyone.": {
-    "message": "誰でもDWG 7に参加できます。私たちは、誰からでも貢献を歓迎します。"
-  },
-  "UN Open GIS Initiative DWG 7 on Smart Maps": {
-    "message": "UNオープンGISイニシアティブ・スマートマップ作業部会（DWG 7）"
+  "Anyone can join the UN Smart Maps Group. We welcome contributions from anyone.": {
+    "message": "誰でも国連スマート地図に参加できます。私たちは、誰からでも貢献を歓迎します。"
   },
   "Keep web maps open for a better world": {
     "message": "世界をより良くするため、ウェブ地図を開かれたものに保つ"
@@ -430,5 +424,8 @@
   "theme.SearchModal.placeholder": {
     "message": "ドキュメントを検索",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "UN Smart Maps": {
+    "message": "国連スマート地図作業部会"
   }
 }
