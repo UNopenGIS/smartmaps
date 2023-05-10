@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>UN Open GIS Initiative DWG7 on Smart Maps</ShortName>
-  <Description>Search UN Open GIS Initiative DWG7 on Smart Maps</Description>
+  <ShortName>UN Smart Maps</ShortName>
+  <Description>Search UN Smart Maps</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://unopengis.github.io/7-docs/ja/img/favicon.png</Image>
   <Url type="text/html" method="get" template="https://unopengis.github.io/7-docs/ja/search?q={searchTerms}"/>
