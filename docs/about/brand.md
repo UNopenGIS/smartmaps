@@ -10,7 +10,7 @@
 ### Guidelines
 1. We normally use **UN Smart Maps** when it is appropriate. We want to use this as *our standard brand*. 
 2. Sometimes we simply say **Smart Maps** as _nickname_ in some casual and friendly context. 
-3. We add specific words after **Smart Maps** to identify something under our activitiy. For example: **Smart Maps Meetup**, **Smart Maps Bazaar**, **Smart Maps Group**, and maybe **Smart Maps Portable** in future. It is OK to use UN as a prefix. However, we also wanto to keep our names short, preferably less than 3 words. 
+3. We add specific words after **Smart Maps** to identify something under our activitiy. For example: **Smart Maps Meetup**, **Smart Maps Bazaar**, **Smart Maps Group**, and maybe **Smart Maps Portable** in future. It is OK to use UN as a prefix. However, we also wanto to keep our names short, preferably less than 4 words. 
 4. We always use **Maps** in plural form. We do not use **Smart Map** in singular form. 
 5. We also add **DWG** and **7** when it is necessary or appropriate. But we still want our brand simple and easy to remember. That is why we normally use **UN Smart Maps**. 
 6. In Japanese language, **国連スマート地図** would be *our standard brand*.
