@@ -20,21 +20,8 @@
 The UN Smart Maps brand uses the following typefaces:
 - [Futura](https://fonts.adobe.com/fonts/futura-pt) for headings
 
-
 ## Provisonal logo
-### 2nd gen
 ![provisional logo 2](./media/dwg7-provisional-logo-2.jpg)
 
-### 1st gen
-![provisional logo](./media/dwg7-provisional-logo.jpg)
-
-Available at [https://github.com/UNopenGIS/7/blob/main/dwg7-provisional-logo.jpg](./media/dwg7-provisional-logo.jpg).
-
 ## Provisional social preview image
-### 2nd gen
 ![social preview image 2](./media/dwg7-provisional-social-preview-image-2.jpg)
-
-### 1st gen
-![social preview image](./media/dwg7-provisional-social-preview-image.jpg)
-
-Available at [https://unopengis.github.io/7/dwg7-provisional-social-preview-image.jpg](./media/dwg7-provisional-social-preview-image.jpg).
