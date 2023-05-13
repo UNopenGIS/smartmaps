@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_7_test_docs=self.webpackChunk_7_test_docs||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\ud83c\udf89 WD7 Documentation Launch \ud83c\udf89","permalink":"/7-docs/blog/wd7-documentation-launch"}]}')}}]);

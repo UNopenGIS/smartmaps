@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>UN Smart Maps Blog</title>
-        <link>https://unopengis.github.io/7-docs/blog</link>
+        <link>https://unopengis.github.io/smartmaps/blog</link>
         <description>UN Smart Maps Blog</description>
         <lastBuildDate>Sun, 16 Apr 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[🎉 WD7 Documentation Launch 🎉]]></title>
-            <link>https://unopengis.github.io/7-docs/blog/wd7-documentation-launch</link>
-            <guid>https://unopengis.github.io/7-docs/blog/wd7-documentation-launch</guid>
+            <link>https://unopengis.github.io/smartmaps/blog/wd7-documentation-launch</link>
+            <guid>https://unopengis.github.io/smartmaps/blog/wd7-documentation-launch</guid>
             <pubDate>Sun, 16 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[The WD7 is re-working the documentation of related projects and usage of technologies related to open maps.]]></description>
             <content:encoded><![CDATA[<p>The WD7 is re-working the documentation of related projects and usage of technologies related to open maps.</p>]]></content:encoded>

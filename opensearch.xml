@@ -4,8 +4,8 @@
   <ShortName>UN Smart Maps</ShortName>
   <Description>Search UN Smart Maps</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://unopengis.github.io/7-docs/img/favicon.png</Image>
-  <Url type="text/html" method="get" template="https://unopengis.github.io/7-docs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://unopengis.github.io/7-docs/opensearch.xml" />
-  <moz:SearchForm>https://unopengis.github.io/7-docs/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://unopengis.github.io/smartmaps/img/favicon.png</Image>
+  <Url type="text/html" method="get" template="https://unopengis.github.io/smartmaps/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://unopengis.github.io/smartmaps/opensearch.xml" />
+  <moz:SearchForm>https://unopengis.github.io/smartmaps/</moz:SearchForm>
 </OpenSearchDescription>
