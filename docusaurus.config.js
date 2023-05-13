@@ -9,7 +9,7 @@ const config = {
   title: "UN Smart Maps",
   tagline: "Keep web maps open for a better world",
   url: "https://unopengis.github.io",
-  baseUrl: "/7-docs/",
+  baseUrl: "/smartmaps/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
@@ -20,7 +20,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "unopengis", // Usually your GitHub org/user name.
-  projectName: "7-docs", // Usually your repo name.
+  projectName: "smartmaps", // Usually your repo name.
 
   presets: [
     [
@@ -84,7 +84,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/unopengis/7-docs/",
+            href: "https://github.com/unopengis/smartmaps/",
             label: "GitHub",
             position: "right"
           }
