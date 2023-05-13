@@ -54,7 +54,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      
+      metadata: [{property: 'og:image', content: 'https://unopengis.github.io/smartmaps/assets/images/dwg7-provisional-social-preview-image-2-d153649a67d422600f9229d8c87a5227.jpg'}, {property: 'og:type', content: 'website'},{property: 'og:title', content: 'UN Smart Maps'},{property: 'og:description', content: 'Keep web maps open for a better world'},{property: 'og:url', content: 'https://unopengis.github.io/smartmaps/'},{property: 'og:height', content: '608'},{property: 'og:width', content: '1502'}],
       docs: {
         sidebar: {
           hideable: true
