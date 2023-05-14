@@ -273,25 +273,25 @@
   "What is UN Smart Maps?": {
     "message": "国連スマート地図とは？"
   },
-  "All tools and data created from DW7 projects are open source.": {
-    "message": "すべてのツールとデータはオープンソースです。"
+  "UN Smart Maps is committed to sharing Open Source Software and Open Data.": {
+    "message": "国連スマート地図はオープンソースとオープンデータにコミットします。"
   },
-  "The UN Smart Maps Group is a community of practice. We share best practices and lessons learned.": {
-    "message": "国連スマート地図は、実践的なコミュニティです。私たちは、ベストプラクティスと学んだことを共有します。"
+  "UN Smart Maps is a Community of Practice. We share best practices and lessons learned.": {
+    "message": "国連スマート地図は実践共同体です。私たちは、ベストプラクティスと教訓をシェアします。"
   },
-  "Anyone can join the UN Smart Maps Group. We welcome contributions from anyone.": {
-    "message": "誰でも国連スマート地図に参加できます。私たちは、誰からでも貢献を歓迎します。"
+  "Anyone can join UN Smart Maps. We welcome contributions from anyone.": {
+    "message": "誰でも国連スマート地図に参加できます。私たちは、誰からの貢献も歓迎します。"
   },
   "Keep web maps open for a better world": {
     "message": "世界をより良くするため、ウェブ地図を開かれたものに保つ"
   },
-  "Open community": {
+  "Open Community": {
     "message": "オープンコミュニティ"
   },
-  "Open Source": {
-    "message": "オープンソース"
+  "Open License": {
+    "message": "オープンライセンス"
   },
-  "Open practice": {
+  "Open Practice": {
     "message": "オープンプラクティス"
   },
   "theme.SearchBar.seeAll": {
