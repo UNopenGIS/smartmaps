@@ -61,9 +61,9 @@ const config = {
         }
       },
       navbar: {
-        title: "UN Open GIS",
+        title: "UN Smart Maps",
         logo: {
-          alt: "UN Open GIS Logo",
+          alt: "UN Smart Maps Logo",
           src: "img/favicon.png"
         },
         items: [
