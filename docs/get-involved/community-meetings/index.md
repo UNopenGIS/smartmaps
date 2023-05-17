@@ -6,7 +6,7 @@ Meetings are held online every month and are open to the public. The meetings ar
 |Meeting| Date | Time | Link |
 |-------|------|------|------|
 |UN Smart Maps Meetup Japan| 2023-05-16| 03:30 UTC | TBD|
-|[UN Smart Maps International Meetup](./international/)| 2023-05-19| 04:00 UTC | Zoom Link - TBD|
+|[UN Smart Maps International Meetup](./international/)| 2023-05-26| 04:00 UTC | Zoom Link - TBD|
 |[UN Smart Maps Documentation Working Meeting](./documentation/)| 2023-05-22 | 04:00 UTC | [Zoom Link](https://ucla.zoom.us/j/93249046195)|
 
 ### Meeting Schedule
