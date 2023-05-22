@@ -2,4 +2,4 @@
 
 ## 現在のボランティア
 
-- [ドキュメントコンテンツボランティア](./volunteering/document-content-volunteer.md) [**継続中**]
+- [ドキュメントコンテンツボランティア](./volunteer/document-content-volunteer.md) [**継続中**]

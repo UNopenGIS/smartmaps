@@ -2,4 +2,4 @@
 
 ## Current Opportunities
 
-- [Documentation Content Volunteer](./volunteering/document-content-volunteer.md) [**On-going**]
+- [Documentation Content Volunteer](./volunteer/document-content-volunteer.md) [**On-going**]

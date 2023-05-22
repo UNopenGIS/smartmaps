@@ -14,7 +14,7 @@ UN Smart Maps hosts community meetings to discuss the project and its objectives
 
 ## Volunteering
 
-- [Documentation Content Volunteer](./volunteering/document-content-volunteer.md) [On-going]
+- [Documentation Content Volunteer](./volunteer/document-content-volunteer.md) [On-going]
 
 ## Contact us
 
