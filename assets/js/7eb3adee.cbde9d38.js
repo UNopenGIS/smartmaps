@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_7_test_docs=self.webpackChunk_7_test_docs||[]).push([[5673],{8360:s=>{s.exports=JSON.parse('[{"label":"documentation","permalink":"/smartmaps/blog/tags/documentation","count":1}]')}}]);

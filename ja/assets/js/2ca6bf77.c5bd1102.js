@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_7_test_docs=self.webpackChunk_7_test_docs||[]).push([[8098],{1236:s=>{s.exports=JSON.parse('{"permalink":"/smartmaps/ja/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"\u30d6\u30ed\u30b0","blogTitle":"\u30d6\u30ed\u30b0"}')}}]);

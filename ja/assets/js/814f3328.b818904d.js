@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_7_test_docs=self.webpackChunk_7_test_docs||[]).push([[2535],{5641:t=>{t.exports=JSON.parse('{"title":"\u6700\u8fd1\u306e\u66f4\u65b0","items":[{"title":"\ud83c\udf89 WD7 Documentation Launch \ud83c\udf89","permalink":"/smartmaps/ja/blog/wd7-documentation-launch"}]}')}}]);
