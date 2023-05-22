@@ -10,7 +10,7 @@
 
 |番号|日付|時刻|現地時刻|リンク|
 |---|----|---|---|----|
-| #2 | [2023-05-26](./2023-05-26.md) | 04:00 UTC | 13:00 JST| [Zoomリンク](https://ucla.zoom.us/j/93249046195)|
+| #2 | [2023-05-26](./2023-05-26.md) | 04:00 UTC | 13:00 JST| [Zoomリンク](https://ucla.zoom.us/meeting/register/tJcoc-mvrTovG920aIcgb-64RaKdVWKTb1Ik)|
 
 ## 過去のミートアップ
 

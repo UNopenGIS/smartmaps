@@ -77,7 +77,27 @@ const config = {
             position: "left",
             to: "/resources"
           },
-          { to: "/get-involved", label: "Get Involved", position: "left" },
+          // { to: "/get-involved", label: "Get Involved", position: "left" },
+          {
+            type: 'dropdown',
+            label: 'Get Involved',
+            position: 'left',
+            items: [
+              {
+                label: 'Community Meetings',
+                to: '/get-involved/community-meetings',
+              },
+              {
+                to: '/get-involved/events',
+                label: 'Events',
+              },
+              {
+                label: 'Volunteer',
+                to: '/get-involved/volunteer',
+              }
+              // ... more items
+            ],
+          },
           // { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",

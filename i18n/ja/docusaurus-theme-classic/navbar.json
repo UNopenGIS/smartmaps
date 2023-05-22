@@ -30,5 +30,17 @@
   "item.label.Get Involved": {
     "message": "参加する",
     "description": "Navbar item with label Get Involved"
+  },
+  "item.label.Community Meetings": {
+    "message": "コミュニティミーティング",
+    "description": "Navbar item with label Community Meetings"
+  },
+  "item.label.Events": {
+    "message": "イベント",
+    "description": "Navbar item with label Events"
+  },
+  "item.label.Volunteer": {
+    "message": "ボランティア",
+    "description": "Navbar item with label Volunteer"
   }
 }
