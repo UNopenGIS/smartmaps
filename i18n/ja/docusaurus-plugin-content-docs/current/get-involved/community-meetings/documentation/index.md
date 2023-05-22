@@ -6,6 +6,6 @@
 
 |番号 | 日付 | 時間 |ロカール| リンク
 |-------|------|------|------|------|
-| #1 | [2023-05-22](./2023-05-22.md) | 04:00 UTC|14:00 JST| [Zoom Link](https://ucla.zoom.us/j/93249046195)|
+| #1 | [2023-05-22](./2023-05-22.md) | 04:00 UTC|13:00 JST| [登録必要](https://ucla.zoom.us/meeting/register/tJUrcO-pqjsiEtQZccTcBHfbeISlnexdxe4Z)|
 
 <!-- ### 過去のミーティング -->
