@@ -11,6 +11,11 @@
 
 ## Resources
 
+### Mapping Projects
+
+- UN Open GIS Initiative - [UN Open GIS Initiative](https://unopengis.org/)
+- Humanitarian OpenStreetMap Team (HOT) - [HOT OSM](https://www.hotosm.org/)
+
 ## Data
 
 ## Use Cases

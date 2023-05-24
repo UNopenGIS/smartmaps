@@ -19,10 +19,6 @@
     "message": "国連スマート地図国際ミートアップ",
     "description": "The label for category 国連スマート地図国際ミートアップ in sidebar getInvolved"
   },
-  "sidebar.getInvolved.category.Volunteering": {
-    "message": "ボランティア",
-    "description": "The label for category Volunteering in sidebar getInvolved"
-  },
   "sidebar.getInvolved.category.ボランティア": {
     "message": "ボランティア",
     "description": "The label for category ボランティア in sidebar getInvolved"
