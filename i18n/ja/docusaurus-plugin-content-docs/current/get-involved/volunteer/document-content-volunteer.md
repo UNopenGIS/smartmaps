@@ -1,8 +1,8 @@
 # ドキュメントコンテンツボランティア
 
-##　について
+## ドキュメントコンテンツボランティアとは
 
-UN Smart Mapsは、ドキュメントウェブサイトのコンテンツを手伝ってくれるボランティアを募集しています。
+UN Smart Maps では、ドキュメントウェブサイトのコンテンツを手伝ってくれるボランティアを募集しています。
 
 内容は以下の通りです。
 
@@ -10,28 +10,29 @@ UN Smart Mapsは、ドキュメントウェブサイトのコンテンツを手�
 - コミュニティミーティング情報
 - リソース
 
-このドキュメントウェブサイトは、[Docusaurus](https://docusaurus.io/)を用いて構築されています。サイトはGitHub Pagesでホストされており、リポジトリはこちらにあります: [https://github.com/UNopenGIS/smartmaps](https://github.com/UNopenGIS/smartmaps)
+このドキュメントウェブサイトは、[Docusaurus](https://docusaurus.io/) で構築されています。サイトはGitHub Pagesでホストされており、
+リポジトリは [https://github.com/UNopenGIS/smartmaps](https://github.com/UNopenGIS/smartmaps) です。
 
-### 応募資格
+### このような方に向いています
 
-- 地図やオープンソースソフトウェアに興味があること
-- GitHubや静的サイトジェネレーターについて学びたいこと
-- [GitHubアカウント](https://www.github.com/signup)
+- [GitHubアカウント](https://www.github.com/signup) を持っている
+- 地図やオープンソースソフトウェアに興味がある
+- GitHub や静的サイトジェネレーターについて学びたい
 
 ### 望ましいスキル
 
-- Markdownの経験
-- GitとGitHubの経験
-- HTMLとCSSの経験
+- Markdownについて経験があること
+- GitとGitHubについて経験があること
+- HTMLとCSSについて経験があること
 
-### タスク
+### やってもらいたいこと
 
 - ドキュメントウェブサイトを日本語/英語に翻訳する
 - 新しいドキュメントページを作成する
 - 既存のページを更新する
 - ウェブサイトのスタイルを変更する
 
-### 応募
+### 参加するには
 
 ボランティアに興味がある方は、以下のリンクから登録してください。
 
