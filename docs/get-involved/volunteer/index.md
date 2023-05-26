@@ -2,7 +2,7 @@
 
 ## Current Opportunities
 
-- [Documentation Content Volunteer](./volunteer/document-content-volunteer.md) [**On-going**]
+- [Documentation Content Volunteer](./document-content-volunteer.md) [**On-going**]
 
 ### External Mapping Projects
 

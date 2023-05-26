@@ -2,7 +2,7 @@
 
 ## 現在のボランティア
 
-- [ドキュメントコンテンツボランティア](./volunteer/document-content-volunteer.md) [**継続中**]
+- [ドキュメントコンテンツボランティア](./document-content-volunteer.md) [**継続中**]
 
 ## 外部マッピングプロジェクト
 
