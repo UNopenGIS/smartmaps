@@ -14,7 +14,7 @@ Meetings are held online every month and are open to the public. The meetings ar
 |---------|------------|------|
 |UN Smart Maps Meetup Japan|Tuesdays of each week|3:30 UTC|
 |UN Smart Maps InternationalMeetup| 3rd Friday of the month|4:00 UTC|
-|UN Smart Maps Documentation|3rd Monday of the month|4:00 UTC|
+|UN Smart Maps Documentation|3rd Monday of the month|3:00 UTC|
 
 ### Past Meetings
 |Meeting| Date | Time |
