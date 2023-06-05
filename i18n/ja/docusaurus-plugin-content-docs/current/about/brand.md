@@ -23,4 +23,8 @@
 ![provisional logo 2](./media/dwg7-provisional-logo-2.jpg)
 
 ## ソーシャルプレビューイメージ
-![social preview image 2](./media/dwg7-provisional-social-preview-image-2.jpg)
+
+![social preview image 2.1](./media/dwg7-provisional-social-preview-image-2-1.png)
+
+
+![social preview image 2.0](./media/dwg7-provisional-social-preview-image-2-0.jpg)
