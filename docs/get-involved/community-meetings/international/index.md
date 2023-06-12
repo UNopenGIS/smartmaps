@@ -1,4 +1,4 @@
-# UN Smart Maps International Meetups
+# UN Smart Maps Meetup Monthly
 
 We are regularly meeting online every month. Here are our standard agenda for International Meetups.
 
