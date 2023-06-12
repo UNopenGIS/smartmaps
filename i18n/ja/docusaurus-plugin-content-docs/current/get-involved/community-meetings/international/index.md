@@ -4,13 +4,17 @@
 
 ##　ミートアップのスケジュール
 
-国連スマート地図国際ミートアップは、毎月第3木曜日に開催されます。ミートアップの時間は、UTC 04:00 です。ミートアップの時間は、[こちら](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+International+Meetup&iso=20230520T04&p1=1440&ah=1)で確認できます。
+国連スマート地図国際ミートアップは、毎月第3木曜日に開催されます。ミートアップの時間は、UTC 04:00 です。ミートアップの時間は、[こちら](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+International+Meetup&iso=20230616T04&p1=1440&ah=1)で確認できます。
 
 ## 次回のミートアップ
 
 |番号|日付|時刻|現地時刻|リンク|
 |---|----|---|---|----|
-| #2 | [2023-05-26](./2023-05-26.md) | 04:00 UTC | 13:00 JST| [Zoomリンク](https://ucla.zoom.us/meeting/register/tJcoc-mvrTovG920aIcgb-64RaKdVWKTb1Ik)|
+| #3 | [2023-06-16](./2023-06-16.md) | 04:00 UTC | 13:00 JST| [Zoomリンク](https://ucla.zoom.us/meeting/register/tJcoc-mvrTovG920aIcgb-64RaKdVWKTb1Ik)|
 
 ## 過去のミートアップ
+|番号|日付|時刻|現地時刻|レコーディング|
+|---|----|---|---|----|
+| #2 | [2023-05-26](./2023-05-26.md) | 04:00 UTC | 13:00 JST| TBD|
+
 

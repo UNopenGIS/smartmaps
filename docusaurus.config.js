@@ -156,30 +156,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      algolia: {
-        // The application ID provided by Algolia
-        appId: '4HDXPXPFQ8',
-  
-        // Public API key: it is safe to commit it
-        apiKey: '48c26edb9d6071ce2dfc5217afe2067d',
-  
-        indexName: '7',
-  
-        // Optional: see doc section below
-        contextualSearch: true,
-  
-  
-        // Optional: Algolia search parameters
-        searchParameters: {},
-  
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
-  
-        //... other Algolia params
-      },
     }),
 
-
+  plugins: [[require.resolve('docusaurus-lunr-search'),{indexBaseUrl: true,languages: ['en', 'ja']}]],
   markdown: {
     mermaid: true,
   },

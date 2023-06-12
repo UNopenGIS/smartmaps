@@ -25,6 +25,9 @@ The UN Smart Maps brand uses the following typefaces:
 
 ## Provisional social preview image
 
+### v2.1
 ![social preview image 2.1](./media/dwg7-provisional-social-preview-image-2-1.png)
+
+### v2.0
 
 ![social preview image 2.0](./media/dwg7-provisional-social-preview-image-2-0.jpg)
