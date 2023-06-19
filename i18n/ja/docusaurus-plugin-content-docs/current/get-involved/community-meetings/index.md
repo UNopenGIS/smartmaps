@@ -7,7 +7,7 @@
 |-------|------|------|------|
 |国連スマート地図ミートアップ日本|2023-05-16|03:30 UTC|TBD|
 |国連スマート地図国際ミートアップ|2023-07-21|04:00 UTC|[登録必要](https://ucla.zoom.us/meeting/register/tJcoc-mvrTovG920aIcgb-64RaKdVWKTb1Ik)|
-|国連スマート地図ドキュメンテーション|2023-06-19|04:00 UTC|[登録必要](https://ucla.zoom.us/meeting/register/tJUrcO-pqjsiEtQZccTcBHfbeISlnexdxe4Z)|
+|国連スマート地図ドキュメンテーション|2023-07-17|04:00 UTC|[登録必要](https://ucla.zoom.us/meeting/register/tJUrcO-pqjsiEtQZccTcBHfbeISlnexdxe4Z)|
 
 
 

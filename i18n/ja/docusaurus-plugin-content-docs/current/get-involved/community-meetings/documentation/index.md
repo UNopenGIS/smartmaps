@@ -6,9 +6,10 @@
 
 |番号 | 日付 | 時間 |ロカール| リンク
 |-------|------|------|------|------|
-| #2 | [2023-06-19](./2023-06-19.md) | 03:00 UTC|12:00 JST| [登録必要](https://ucla.zoom.us/meeting/register/tJUrcO-pqjsiEtQZccTcBHfbeISlnexdxe4Z)|
+| #2 | [2023-07-17](./2023-06-19.md) | 03:00 UTC|12:00 JST| [登録必要](https://ucla.zoom.us/meeting/register/tJUrcO-pqjsiEtQZccTcBHfbeISlnexdxe4Z)|
 
 <!-- ### 過去のミーティング -->
 |番号 | 日付 | レコーディング |
 |----|------|--------------|
 | #1 | [2023-05-22](./2023-05-22.md) |TBD|
+| #3 | [2023-06-19](./2023-06-19.md) | 03:00 UTC|12:00 JST| TBD|
