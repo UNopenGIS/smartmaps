@@ -2,6 +2,7 @@
 sidebar_position: 2
 ---
 # About UN Smart Maps
+Smart Maps are application of modern web map technologies for informed decision.
 
 - [Project Document](https://github.com/UNopenGIS/7/wiki/Project-Document)
 - [Project Kanban](https://github.com/orgs/UNopenGIS/projects/1/views/1)
