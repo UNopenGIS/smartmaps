@@ -2,9 +2,10 @@
 sidebar_position: 2
 ---
 # 国連スマート地図について
+スマート地図とは、情報に基づいた意思決定のためのモダンなウェブ地図技術の利用法です。
 
-- [プロジェクトのドキュメン](https://github.com/UNopenGIS/7/wiki/Project-Document)
-- [プロジェクトの看板](https://github.com/orgs/UNopenGIS/projects/1/views/1)
+- [プロジェクトのドキュメント](https://github.com/UNopenGIS/7/wiki/Project-Document)
+- [プロジェクトのかんばん](https://github.com/orgs/UNopenGIS/projects/1/views/1)
 
 ## 個々の目標リポジトリ
 
