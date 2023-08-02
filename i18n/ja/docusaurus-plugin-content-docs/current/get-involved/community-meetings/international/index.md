@@ -10,11 +10,12 @@
 
 |番号|日付|時刻|現地時刻|リンク|
 |---|----|---|---|----|
-| #4 | [2023-07-21](./2023-07-21.md) | 04:00 UTC | 13:00 JST| [Zoomリンク](https://ucla.zoom.us/meeting/register/tJcoc-mvrTovG920aIcgb-64RaKdVWKTb1Ik)|
+| #5 | [2023-08-18](./2023-08-18.md) | 03:00 UTC | 12:00 JST| [Zoomリンク](https://ucla.zoom.us/meeting/register/tJcoc-mvrTovG920aIcgb-64RaKdVWKTb1Ik)|
 
 ## 過去のミートアップ
 |番号|日付|時刻|現地時刻|レコーディング|
 |---|----|---|---|----|
+| #4 | [2023-07-21](./2023-07-21.md) | 04:00 UTC | 13:00 JST| [Zoomリンク]TBD|
 | #2 | [2023-05-26](./2023-05-26.md) | 04:00 UTC | 13:00 JST| TBD|
 | #3 | [2023-06-16](./2023-06-16.md) | 04:00 UTC | 13:00 JST| TBD|
 
