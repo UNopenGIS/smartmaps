@@ -6,10 +6,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "UN Open GIS Initiative DWG7 on Smart Maps",
+  title: "UN Smart Maps",
   tagline: "Keep web maps open for a better world",
   url: "https://unopengis.github.io",
-  baseUrl: "/7-docs/",
+  baseUrl: "/smartmaps/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
@@ -20,7 +20,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "unopengis", // Usually your GitHub org/user name.
-  projectName: "7-docs", // Usually your repo name.
+  projectName: "smartmaps", // Usually your repo name.
 
   presets: [
     [
@@ -29,6 +29,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/",
+          breadcrumbs: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -52,41 +54,53 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      
+      metadata: [{property: 'og:image', content: 'https://unopengis.github.io/smartmaps/assets/images/dwg7-provisional-social-preview-image-2-d153649a67d422600f9229d8c87a5227.jpg'}, {property: 'og:type', content: 'website'},{property: 'og:title', content: 'UN Smart Maps'},{property: 'og:description', content: 'Keep web maps open for a better world'},{property: 'og:url', content: 'https://unopengis.github.io/smartmaps/'},{property: 'og:height', content: '608'},{property: 'og:width', content: '1502'}],
       docs: {
         sidebar: {
           hideable: true
         }
       },
       navbar: {
-        title: "UN Open GIS",
+        title: "UN Smart Maps",
         logo: {
-          alt: "UN Open GIS Logo",
+          alt: "UN Smart Maps Logo",
           src: "img/favicon.png"
         },
         items: [
           {
-            to: "/docs/about",
+            to: "/about",
             position: "left",
             label: "About"
           },
           {
-            label: "Resources",
+            label: "Events",
             position: "left",
-            to: "/docs/resources"
+            to: "/events"
           },
           {
-            label: "Use Cases",
+            label: "Resources",
             position: "left",
-            to: "/docs/use-cases"
+            to: "/resources"
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/get-involved", label: "Get Involved", position: "left" },
+          {
+            type: 'dropdown',
+            label: 'Get Involved',
+            position: 'left',
+            items: [
+              {
+                label: 'Volunteer',
+                to: '/get-involved/volunteer',
+              }
+            ],
+          },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             type: "localeDropdown",
             position: "right",
           },
           {
-            href: "https://github.com/unopengis/7-docs/",
+            href: "https://github.com/unopengis/smartmaps/",
             label: "GitHub",
             position: "right"
           }
@@ -138,30 +152,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      algolia: {
-        // The application ID provided by Algolia
-        appId: '4HDXPXPFQ8',
-  
-        // Public API key: it is safe to commit it
-        apiKey: '48c26edb9d6071ce2dfc5217afe2067d',
-  
-        indexName: '7',
-  
-        // Optional: see doc section below
-        contextualSearch: true,
-  
-  
-        // Optional: Algolia search parameters
-        searchParameters: {},
-  
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
-  
-        //... other Algolia params
-      },
     }),
 
-
+  plugins: [[require.resolve('docusaurus-lunr-search'),{indexBaseUrl: true,languages: ['en', 'ja']}]],
   markdown: {
     mermaid: true,
   },

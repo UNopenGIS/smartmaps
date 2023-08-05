@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "UN Open GIS",
+    "message": "国連スマート地図",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "UN Open GISロゴ",
+    "message": "国連スマート地図ロゴ",
     "description": "The alt text of navbar logo"
   },
   "item.label.Blog": {
@@ -16,15 +16,31 @@
     "description": "Navbar item with label Use Cases"
   },
   "item.label.GitHub": {
-    "message": "",
+    "message": "GitHub",
     "description": "Navbar item with label GitHub"
   },
   "item.label.About": {
-    "message": "アバウト",
+    "message": "国連スマート地図について",
     "description": "Navbar item with label About"
   },
   "item.label.Resources": {
-    "message": "ツールとリソース",
+    "message": "リソース",
     "description": "Navbar item with label Resources"
+  },
+  "item.label.Get Involved": {
+    "message": "参加する",
+    "description": "Navbar item with label Get Involved"
+  },
+  "item.label.Community Meetings": {
+    "message": "コミュニティミーティング",
+    "description": "Navbar item with label Community Meetings"
+  },
+  "item.label.Events": {
+    "message": "イベント",
+    "description": "Navbar item with label Events"
+  },
+  "item.label.Volunteer": {
+    "message": "ボランティア",
+    "description": "Navbar item with label Volunteer"
   }
 }

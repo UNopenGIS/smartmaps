@@ -1,6 +1,26 @@
 {
+  "sidebar.getInvolved.category.イベントのお知らせ": {
+    "message": "イベントのお知らせ",
+    "description": "The label for category イベントのお知らせ in sidebar getInvolved"
+  },
   "version.label": {
-    "message": "Next",
+    "message": "次",
     "description": "The label for version current"
+  },
+  "sidebar.getInvolved.category.コミュニティミーティング": {
+    "message": "コミュニティミーティング",
+    "description": "The label for category コミュニティミーティング in sidebar getInvolved"
+  },
+  "sidebar.getInvolved.category.ドキュメントワーキングミーティング": {
+    "message": "ドキュメントワーキングミーティング",
+    "description": "The label for category ドキュメントワーキングミーティング in sidebar getInvolved"
+  },
+  "sidebar.getInvolved.category.国連スマート地図国際ミートアップ": {
+    "message": "国連スマート地図国際ミートアップ",
+    "description": "The label for category 国連スマート地図国際ミートアップ in sidebar getInvolved"
+  },
+  "sidebar.getInvolved.category.ボランティア": {
+    "message": "ボランティア",
+    "description": "The label for category ボランティア in sidebar getInvolved"
   }
 }

@@ -5,37 +5,37 @@ import Translate from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: (<Translate>Open Source</Translate>),
+    title: (<Translate>Open License</Translate>),
     Svg: require('@site/static/img/undraw_connected_world.svg').default,
     description: (
       <>
         <Translate>
-           All tools and data created from DW7 projects are open source.
+          UN Smart Maps is committed to sharing Open Source Software and Open Data.
         </Translate>
       </>
     ),
     link: "./resources/"
   },
   {
-    title: (<Translate>Open practice</Translate>),
+    title: (<Translate>Open Practice</Translate>),
     Svg: require('@site/static/img/undraw_world_looking.svg').default,
     description: (
       <>
         <Translate>
-            The DW7 Smart Maps Group is a community of practice. We share best practices and lessons learned.
+          UN Smart Maps is a Community of Practice. We share best practices and lessons learned.
         </Translate>
       </>
     ),
     link: "./use-cases/",
   },
   {
-    title: (<Translate>Open community</Translate>),
+    title: (<Translate>Open Community</Translate>),
     Svg: require('@site/static/img/undraw_world_map.svg').default,
     description: (
       <>
-      <Translate>
-        Anyone can join the DW7 Smart Maps Group. We welcome contributions from anyone.
-      </Translate>
+        <Translate>
+          Anyone can join UN Smart Maps. We welcome contributions from anyone.
+        </Translate>
       </>
     ),
     link: "./get-involved/",
