@@ -1,4 +1,4 @@
-# UN Smart Maps Meetup Monthly
+# UN Smart Maps Pacific
 
 We are regularly meeting online every month. Here are our standard agenda for International Meetups.
 
