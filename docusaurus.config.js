@@ -73,6 +73,11 @@ const config = {
             label: "About"
           },
           {
+            label: "Events",
+            position: "left",
+            to: "/events"
+          },
+          {
             label: "Resources",
             position: "left",
             to: "/resources"
@@ -84,18 +89,9 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Community Meetings',
-                to: '/get-involved/community-meetings',
-              },
-              {
-                to: '/get-involved/events',
-                label: 'Events',
-              },
-              {
                 label: 'Volunteer',
                 to: '/get-involved/volunteer',
               }
-              // ... more items
             ],
           },
           // { to: "/blog", label: "Blog", position: "left" },
