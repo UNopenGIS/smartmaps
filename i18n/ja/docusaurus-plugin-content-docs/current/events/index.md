@@ -4,5 +4,11 @@
 
 | イベント | 日付 |時間| 場所 |
 | --- | --- | --- |---|
-[スマート地図国際ミートアップ　クオーターリー](./2023-08-09.md) | [2023-08-09](./2023-08-09.md) | [14:45 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+Quarterly+Meetup&iso=20230809T1445&p1=1440&ah=1) | [MS Teams](./2023-08-09#how-to-participate))
-[国連スマート地図パシフィック](./2023-08-18.md)| [2023-08-18](./2023-08-18.md) | [03:00 UTC](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+Pacific&iso=20230818T03&p1=1440&ah=1) | [Register](https://ucla.zoom.us/meeting/register/tJcoc-mvrTovG920aIcgb-64RaKdVWKTb1Ik)
+| [スマート地図ミートアップ](2023-11-14.md) | [2023-11-14](2023-11-14.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231114T1230&p1=1440&ah=1) | [Register](#) |
+| [UN Smart Maps Meetup Pacific](2023-11-17-2.md) | [2023-11-17](2023-11-17-2.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+Meetup+Pacific&iso=20231117T0300&p1=1440&ah=1) | [Register](#) |
+| [UN Smart Maps Core Team Meeting](2023-11-17.md) | [2023-11-17](2023-11-17.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+Core+Team+Meeting&iso=20231117T0400&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2023-11-21.md) | [2023-11-21](2023-11-21.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231121T1230&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2023-11-28-2.md) | [2023-11-28](2023-11-28-2.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231128T1230&p1=1440&ah=1) | [Register](#) |
+| [FOSS4G Asia 2023 Seoul](2023-11-28.md) | [2023-11-28](2023-11-28.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=FOSS4G+Asia+2023+Seoul&iso=20231128T0000&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2023-12-05.md) | [2023-12-05](2023-12-05.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231205T1230&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2023-12-12.md) | [2023-12-12](2023-12-12.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231212T1230&p1=1440&ah=1) | [Register](#) |
