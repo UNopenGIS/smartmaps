@@ -13,10 +13,18 @@ timezones = {
     'New Delhi': 'Asia/Kolkata',
     'Tokyo': 'Asia/Tokyo'
 }
-# Define the directories
-events_dir = "../docs/events/"
-i18n_dir = "../i18n/ja/docusaurus-plugin-content-docs/current/events/"
+import os
 
+# Get the directory of the script
+script_dir = os.path.dirname(os.path.realpath(__file__))
+
+# Get the parent directory
+parent_dir = os.path.dirname(script_dir)
+
+# Construct the paths to the files
+events_index_path = os.path.join(parent_dir, 'docs/events/index.md')
+i18n_index_path = os.path.join(parent_dir, 'i18n/ja/docusaurus-plugin-content-docs/current/events/index.md')
+# Use the paths to open the files
 
 # URLs of your public Google Calendars' iCals
 urls = [
@@ -86,7 +94,7 @@ for start_time, _ in events:
 
 # Read existing events from the current markdown files
 existing_events = {}
-with open('../docs/events/index.md', 'r') as f, open('../i18n/ja/docusaurus-plugin-content-docs/current/events/index.md', 'r') as f_i18n:
+with open(events_index_path, 'r') as f, open(i18n_index_path, 'r') as f_i18n:
     lines = f.readlines() + f_i18n.readlines()
     for line in lines:
         if '|' in line:
@@ -94,7 +102,7 @@ with open('../docs/events/index.md', 'r') as f, open('../i18n/ja/docusaurus-plug
             existing_events[event] = True
 
 # Write upcoming events to the current markdown files
-with open('../docs/events/index.md', 'w') as f, open('../i18n/ja/docusaurus-plugin-content-docs/current/events/index.md', 'w') as f_i18n:
+with open(events_index_path, 'w') as f, open(i18n_index_path, 'w') as f_i18n:
     f.write("# Events\n\n")
     f.write("The following events are upcoming:\n\n")
     f.write("| Event | Date | Time| Location |\n")
@@ -104,7 +112,6 @@ with open('../docs/events/index.md', 'w') as f, open('../i18n/ja/docusaurus-plug
     f_i18n.write("このページでは、プロジェクトに関連するイベントを紹介します。\n\n")
     f_i18n.write("| イベント | 日付 |時間| 場所 |\n")
     f_i18n.write("| --- | --- | --- |---|\n")
-    
     for start_time, summary in events:
         if now < start_time < one_month_later and summary not in existing_events:
 
@@ -118,8 +125,10 @@ with open('../docs/events/index.md', 'w') as f, open('../i18n/ja/docusaurus-plug
                 filename += "-" + str(count)
                 event_counts[day] -= 1
             filename += ".md"
-            if not os.path.exists(events_dir + filename):
-                with open(events_dir + filename, 'w') as event_file:
+
+            # Check if the English markdown file exists
+            if not os.path.exists(filename):
+                with open(filename, 'w') as event_file:
                     event_file.write(f"## {summary}\n")
                     event_file.write(f"Start time: {start_time}\n\n")
                     event_file.write("## When is this event?\n\n")
@@ -128,15 +137,17 @@ with open('../docs/events/index.md', 'w') as f, open('../i18n/ja/docusaurus-plug
                         local_end_time = (start_time + timedelta(hours=1)).astimezone(timezone(tz))
                         event_file.write(f"- {local_start_time.strftime('%Y-%m-%dT%H:%M')}/{local_end_time.strftime('%H:%M')} for {city}\n")
 
-            # Check if the translated markdown file exists in the i18n directory
-            if not os.path.exists(i18n_dir + filename):
-                with open(i18n_dir + filename, 'w') as event_file:
+            # Check if the translated markdown file exists
+            if not os.path.exists(filename):
+                with open(filename, 'w') as event_file:
                     event_file.write(f"## {summary}\n")  # Replace with translated summary
                     event_file.write(f"Start time: {start_time}\n\n")
                     event_file.write("## When is this event?\n\n")
                     for city, tz in timezones.items():
                         local_start_time = start_time.astimezone(timezone(tz))
                         local_end_time = (start_time + timedelta(hours=1)).astimezone(timezone(tz))
-                        event_file.write(f"- {local_start_time.strftime('%Y-%m-%dT%H:%M')}/{local_end_time.strftime('%H:%M')} for {city}\n")            # Write the event to the index.md file
+                        event_file.write(f"- {local_start_time.strftime('%Y-%m-%dT%H:%M')}/{local_end_time.strftime('%H:%M')} for {city}\n")
+
+            # Write the event to the index.md file
             f.write(f"| [{summary}]({filename}) | [{start_time.strftime('%Y-%m-%d')}]({filename}) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg={summary.replace(' ', '+')}&iso={start_time.strftime('%Y%m%dT%H%M')}&p1=1440&ah=1) | [Register](#) |\n")
             f_i18n.write(f"| [{summary}]({filename}) | [{start_time.strftime('%Y-%m-%d')}]({filename}) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg={summary.replace(' ', '+')}&iso={start_time.strftime('%Y%m%dT%H%M')}&p1=1440&ah=1) | [Register](#) |\n")  # Replace with translated summary
