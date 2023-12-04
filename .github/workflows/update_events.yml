@@ -8,7 +8,7 @@ jobs:
   update-events:
     runs-on: ubuntu-latest
     container:
-      image: python:3.9-slim-buster
+      image: lacmta/geodb-base
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
