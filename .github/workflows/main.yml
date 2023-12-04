@@ -1,8 +1,9 @@
 name: Deploy Documentation 
 on:
-  push:
-    branches: 
-      - main
+  workflow_run:
+    workflows: ["Update Events"]
+    types:
+      - completed
   workflow_dispatch:
 
   
