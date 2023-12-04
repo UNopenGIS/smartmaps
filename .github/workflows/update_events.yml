@@ -17,8 +17,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Install dependencies
         run: pip install --no-cache-dir -r requirements.txt
-      - name: Install Git
-        run: apt-get update && apt-get install -y git
       - name: Run script
         run: python .scripts/events_updater.py
       - name: Set up Git
