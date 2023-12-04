@@ -19,6 +19,8 @@ jobs:
         run: pip install --no-cache-dir -r requirements.txt
       - name: Run script
         run: python .scripts/events_updater.py
+      - name: Change ownership of repository directory
+        run: sudo chown -R $(whoami) ${{ github.workspace }}
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v7
         with:
