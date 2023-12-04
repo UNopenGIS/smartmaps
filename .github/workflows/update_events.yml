@@ -1,8 +1,11 @@
 name: Update Events
 on:
-    schedule:
-        - cron: '0 0 * * *'  # Runs every day at 00:00 UTC
-    workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at 00:00 UTC
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   update-events:
