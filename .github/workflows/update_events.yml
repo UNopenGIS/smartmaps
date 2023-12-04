@@ -19,14 +19,14 @@ jobs:
         run: pip install --no-cache-dir -r requirements.txt
       - name: Run script
         run: python .scripts/events_updater.py
-      - name: Change to repo directory
-        run: cd $GITHUB_WORKSPACE
       - name: Set up Git
         run: |
           git config user.name "GitHub Actions"
           git config user.email "github-actions@github.com"
+        working-directory: ${{ github.workspace }}
       - name: Commit and push changes
         run: |
           git add .
           git commit -m "[Auto] Update events"
           git push
+        working-directory: ${{ github.workspace }}
