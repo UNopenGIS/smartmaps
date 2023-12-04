@@ -100,15 +100,19 @@ past_i18n_events_path = os.path.join(parent_dir, 'i18n/ja/docusaurus-plugin-cont
 
 # Read existing events from the current markdown files
 existing_events = {}
-with open(events_index_path, 'r') as f, open(i18n_index_path, 'r') as f_i18n:
-    lines = f.readlines() + f_i18n.readlines()
+with open(events_index_path, 'r',encoding='utf-8') as f, open(i18n_index_path, 'r',encoding='utf-8') as f_i18n:
+    lines_f = f.readlines()
+    lines_f_i18n = f_i18n.readlines()
+    lines = lines_f + lines_f_i18n
     for line in lines:
+        if 'index.md' in line:
+            continue
         if '|' in line:
             event = line.split('|')[1].strip()
+            print(f"Processing event: {event}")  # Debugging line
             existing_events[event] = True
-
 # Write upcoming events to the current markdown files
-with open(events_index_path, 'w') as f, open(i18n_index_path, 'w') as f_i18n, open(past_events_path, 'w') as past_f, open(past_i18n_events_path, 'w') as past_f_i18n:
+with open(events_index_path, 'w', encoding='utf-8') as f, open(i18n_index_path, 'w', encoding='utf-8') as f_i18n, open(past_events_path, 'w', encoding='utf-8') as past_f, open(past_i18n_events_path, 'w', encoding='utf-8') as past_f_i18n:
     f.write("# Events\n\n")
     f.write("The following events are upcoming:\n\n")
     f.write("| Event | Date | Time| Location |\n")
@@ -118,6 +122,16 @@ with open(events_index_path, 'w') as f, open(i18n_index_path, 'w') as f_i18n, op
     f_i18n.write("このページでは、プロジェクトに関連するイベントを紹介します。\n\n")
     f_i18n.write("| イベント | 日付 |時間| 場所 |\n")
     f_i18n.write("| --- | --- | --- |---|\n")
+
+    for event in existing_events:
+        # Replace Japanese event name with English one for English file
+        english_event = event
+        if english_event == 'スマート地図ミートアップ':
+            english_event = 'Smart Maps Meetup Japan'
+        # Write the event to the file
+        f.write(f"| {english_event} | Date | Time | Location |\n")
+        f_i18n.write(f"| {event} | 日付 |時間| 場所 |\n")
+        f_i18n.write("| --- | --- | --- |---|\n")
     for start_time, summary in events:
         # Get the event count for this day
         day = start_time.strftime("%Y-%m-%d")
@@ -155,7 +169,7 @@ with open(events_index_path, 'w') as f, open(i18n_index_path, 'w') as f_i18n, op
 
             # Check if the English markdown file exists
             if not os.path.exists(filename):
-                with open(filename, 'w') as event_file:
+                with open(filename, 'w', encoding='utf-8') as event_file:
                     event_file.write(f"## {summary}\n")
                     event_file.write(f"Start time: {start_time}\n\n")
                     event_file.write("## When is this event?\n\n")
@@ -166,7 +180,7 @@ with open(events_index_path, 'w') as f, open(i18n_index_path, 'w') as f_i18n, op
 
             # Check if the translated markdown file exists
             if not os.path.exists(filename):
-                with open(filename, 'w') as event_file:
+                with open(filename, 'w', encoding='utf-8') as event_file:
                     event_file.write(f"## {summary}\n")  # Replace with translated summary
                     event_file.write(f"Start time: {start_time}\n\n")
                     event_file.write("## When is this event?\n\n")
