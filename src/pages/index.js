@@ -31,10 +31,17 @@ function HomepageHeader() {
         </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="about/intro">
+            className="button button--tertiary button--lg"
+            to="/get-involved/join">
               <Translate>
-                What is UN Smart Maps?
+                Join UN Smart Maps
+              </Translate>
+           </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/events">
+              <Translate>
+                See upcoming events
               </Translate>
            </Link>
         </div>
