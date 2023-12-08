@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmartmaps=self.webpackChunksmartmaps||[]).push([[2535],{5641:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\ud83c\udf89 WD7 Documentation Launch \ud83c\udf89","permalink":"/smartmaps/blog/wd7-documentation-launch","unlisted":false}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmartmaps=self.webpackChunksmartmaps||[]).push([[4918],{2922:a=>{a.exports=JSON.parse('{"label":"documentation","permalink":"/smartmaps/blog/tags/documentation","allTagsPath":"/smartmaps/blog/tags","count":1,"unlisted":false}')}}]);
