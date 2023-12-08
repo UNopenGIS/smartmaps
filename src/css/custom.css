@@ -9,16 +9,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-  --ifm-color-primary: #009edb;
-  --ifm-color-primary-dark: #009edb;
-  --ifm-color-primary-darker: #009edb;
-  --ifm-color-primary-darkest: #009edb;
-  --ifm-color-primary-light: #009edb;
-  --ifm-color-primary-lighter: #009edb;
-  --ifm-color-primary-lightest: #009edb;
+  --ifm-color-primary: #5b92e5;
+  --ifm-color-primary-dark: #5b92e5;
+  --ifm-color-primary-darker: #5b92e5;
+  --ifm-color-primary-darkest: #5b92e5;
+  --ifm-color-primary-light: #5b92e5;
+  --ifm-color-primary-lighter: #5b92e5;
+  --ifm-color-primary-lightest: #5b92e5;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: 'Roboto', sans-serif;
+}
+
+.button--tertiary {
+  background-color:  #007bff;
+   /*taken from un mappers search button  */
+  border: 2px solid var(--ifm-color-primary);
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button--tertiary:hover {
+  background-color: #0256b1;
+  color: white;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
