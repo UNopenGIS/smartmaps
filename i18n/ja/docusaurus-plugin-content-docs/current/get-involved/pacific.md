@@ -2,9 +2,9 @@
 
 国連スマート地図国際ミートアップは、国連スマート地図の開発者、コントリビューター、ユーザーが集まり、プロジェクトの最新情報を共有し、コミュニティの発展について話し合う場です。
 
-##　ミートアップのスケジュール
+## ミートアップのスケジュール
 
-国連スマート地図国際ミートアップは、毎月第3木曜日に開催されます。ミートアップの時間は、UTC 04:00 です。ミートアップの時間は、[こちら](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+International+Meetup&iso=20230616T04&p1=1440&ah=1)で確認できます。
+国連スマート地図国際ミートアップは、毎月第3木曜日に開催されます。ミートアップの時間は、UTC 04:00(JST 13:00) です。ミートアップの時間は、[こちら](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+International+Meetup&iso=20230616T04&p1=1440&ah=1)で確認できます。
 
 ## 次回のミートアップ
 
