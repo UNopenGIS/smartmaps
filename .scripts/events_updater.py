@@ -129,7 +129,7 @@ with open(events_index_path, 'w', encoding='utf-8') as f, \
 
         f_i18n.write("# イベントのお知らせ\n\n")
         f_i18n.write("このページでは、プロジェクトに関連するイベントを紹介します。\n\n")
-        f_i18n.write("| イベント | 日付 |時間| 場所 |\n")
+        f_i18n.write("| イベント | 日付 |時刻| 場所 |\n")
         f_i18n.write("| --- | --- | --- |---|\n")
 
         for start_time, summary in events:

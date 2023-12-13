@@ -2,7 +2,7 @@
 
 このページでは、プロジェクトに関連するイベントを紹介します。
 
-| イベント | 日付 |時間| 場所 |
+| イベント | 日付 |時刻| 場所 |
 | --- | --- | --- |---|
 | [スマート地図ミートアップ](2023-12-19.md) | [2023-12-19](2023-12-19.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231219T1230&p1=1440&ah=1) | [Register](#) |
 | [UN Smart Maps Pacific and Strategy meeting](2023-12-22.md) | [2023-12-22](2023-12-22.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+Pacific+and+Strategy+meeting&iso=20231222T0300&p1=1440&ah=1) | [Register](https://ucla.zoom.us/meeting/register/tJcoc-mvrTovG920aIcgb-64RaKdVWKTb1Ik) |
