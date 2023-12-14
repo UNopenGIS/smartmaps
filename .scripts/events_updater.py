@@ -43,10 +43,12 @@ one_month_later = now + timedelta(days=30)
 events = []
 from dateutil.rrule import rrulestr as dateutil_rrulestr
 from dateutil.tz import tzlocal
-
 for calendar in calendars:
     for component in calendar.walk():
         if isinstance(component, Event):
+            summary = component.get('summary')
+            if summary == 'スマート地図ミートアップ':
+                continue
             dtstart = component.get('dtstart').dt
             print(f"Original dtstart: {dtstart}")  # Debug line
             if isinstance(dtstart, date) and not isinstance(dtstart, datetime):
@@ -57,9 +59,9 @@ for calendar in calendars:
             if rrule:
                 rrule = dateutil_rrulestr(rrule.to_ical().decode(), dtstart=dtstart)
                 for recurrence in rrule:
-                    events.append((recurrence, component.get('summary')))
+                    events.append((recurrence, summary))
             else:
-                events.append((dtstart, component.get('summary')))
+                events.append((dtstart, summary))
 
 # Sort events by start time
 events.sort()
@@ -114,25 +116,16 @@ with open(events_index_path, 'r',encoding='utf-8') as f, open(i18n_index_path, '
 # Write upcoming events to the current markdown files
 with open(events_index_path, 'w', encoding='utf-8') as f, open(i18n_index_path, 'w', encoding='utf-8') as f_i18n, open(past_events_path, 'w', encoding='utf-8') as past_f, open(past_i18n_events_path, 'w', encoding='utf-8') as past_f_i18n:
     f.write("# Events\n\n")
-    f.write("The following events are upcoming:\n\n")
     f.write("| Event | Date | Time| Location |\n")
     f.write("| --- | --- | --- |----|\n")
 
-    f_i18n.write("# イベントのお知らせ\n\n")
-    f_i18n.write("このページでは、プロジェクトに関連するイベントを紹介します。\n\n")
+    f_i18n.write("# イベント\n\n")
     f_i18n.write("| イベント | 日付 |時間| 場所 |\n")
     f_i18n.write("| --- | --- | --- |---|\n")
 
-    for event in existing_events:
-        # Replace Japanese event name with English one for English file
-        english_event = event
-        if english_event == 'スマート地図ミートアップ':
-            english_event = 'Smart Maps Meetup Japan'
-        # Write the event to the file
-        f.write(f"| {english_event} | Date | Time | Location |\n")
-        f_i18n.write(f"| {event} | 日付 |時間| 場所 |\n")
-        f_i18n.write("| --- | --- | --- |---|\n")
     for start_time, summary in events:
+        if summary == 'スマート地図ミートアップ':
+            continue
         # Get the event count for this day
         day = start_time.strftime("%Y-%m-%d")
         count = event_counts[day]
