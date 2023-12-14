@@ -120,7 +120,7 @@ with open(events_index_path, 'w', encoding='utf-8') as f, open(i18n_index_path, 
     f.write("| --- | --- | --- |----|\n")
 
     f_i18n.write("# イベント\n\n")
-    f_i18n.write("| イベント | 日付 |時間| 場所 |\n")
+    f_i18n.write("| イベント | 日付 |時刻| 場所 |\n")
     f_i18n.write("| --- | --- | --- |---|\n")
 
     for start_time, summary in events:
