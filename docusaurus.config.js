@@ -78,6 +78,11 @@ const config = {
             to: "/events"
           },
           {
+            to: "/learn", // path to the page
+            label: "Learn", // label of the tab
+            position: "left" // position of the tab
+          },
+          {
             label: "Resources",
             position: "left",
             to: "/resources"
