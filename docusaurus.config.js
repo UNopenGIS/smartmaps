@@ -68,9 +68,28 @@ const config = {
         },
         items: [
           {
+            type: 'dropdown',
             to: "/about",
             position: "left",
-            label: "About"
+            label: "About",
+            items: [
+              {
+                label: "Overview",
+                to: "/about"
+              },
+              {
+                label: "Pledges",
+                to: "/about/pledges"
+              },
+              {
+                label: "Contributors",
+                to: "/about/contributors"
+              },
+              {
+                label: "Brand",
+                to: "/brand"
+              }
+            ]
           },
           {
             label: "Events",
