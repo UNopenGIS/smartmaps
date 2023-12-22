@@ -82,6 +82,10 @@ const config = {
                 to: "/about/pledges"
               },
               {
+                label: "Contributors",
+                to: "/about/contributors"
+              },
+              {
                 label: "Brand",
                 to: "/brand"
               }
