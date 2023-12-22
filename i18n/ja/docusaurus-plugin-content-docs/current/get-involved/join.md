@@ -2,9 +2,9 @@
 
 ## 国連スマートマッピングコミュニティに参加する
 
-### Discord [![Discord](https://img.shields.io/discord/1180387931614085130?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/B2uCGWGmZ5)
+### Discord [![Discord](https://img.shields.io/discord/1180387931614085130?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.com/invite/B2uCGWGmZ5)
 
-<a href="https://discord.gg/B2uCGWGmZ5" class="button button--tertiary">国連スマート地図のDiscordサーバーに参加するには、ここをクリックしてください</a> または以下のQRコードをスキャンしてください。
+<a href="https://discord.com/invite/B2uCGWGmZ5" class="button button--tertiary">国連スマート地図のDiscordサーバーに参加するには、ここをクリックしてください</a> または以下のQRコードをスキャンしてください。
 
 ![UN Smart Mappers QR Code](/img/unsmartmappersqrcode.png)
 
