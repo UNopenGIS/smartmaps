@@ -1,3 +1,5 @@
+| Event | Date | Time| Location |
+| --- | --- | --- |----|
 | [スマート地図ミートアップ](2023-05-09.md) | [2023-05-09](2023-05-09.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20230509T1230&p1=1440&ah=1) | [Register](#) |
 | [スマート地図ミートアップ](2023-05-16.md) | [2023-05-16](2023-05-16.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20230516T1230&p1=1440&ah=1) | [Register](#) |
 | [Smart Maps Docs](2023-05-22.md) | [2023-05-22](2023-05-22.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Smart+Maps+Docs&iso=20230522T0400&p1=1440&ah=1) | [Register](#) |
@@ -51,3 +53,11 @@
 | [スマート地図ミートアップ](2023-11-21.md) | [2023-11-21](2023-11-21.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231121T1230&p1=1440&ah=1) | [Register](#) |
 | [スマート地図ミートアップ](2023-11-28.md) | [2023-11-28](2023-11-28.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231128T1230&p1=1440&ah=1) | [Register](#) |
 | [スマート地図ミートアップ](2023-12-05.md) | [2023-12-05](2023-12-05.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231205T1230&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2023-12-12.md) | [2023-12-12](2023-12-12.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231212T1230&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2023-12-19.md) | [2023-12-12](2023-12-19.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231219T1230&p1=1440&ah=1) | [Register](#) |
+| [UN Smart Maps - Pacific and Strategy meeting](2023-12-22.md) | [2023-12-22](2023-12-22.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+-+Pacific+and+Strategy+meeting&iso=20231222T0300&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2023-12-26.md) | [2023-12-26](2023-12-26.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20231226T1230&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2024-01-09.md) | [2024-01-09](2024-01-09.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20240109T1230&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2024-01-16.md) | [2024-01-16](2024-01-16.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20240116T1230&p1=1440&ah=1) | [Register](#) |
+| [UN Smart Maps - Pacific and Strategy meeting](2024-01-19.md) | [2024-01-19](2024-01-19.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+-+Pacific+and+Strategy+meeting&iso=20240119T0300&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2024-01-23.md) | [2024-01-23](2024-01-23.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20240123T1230&p1=1440&ah=1) | [Register](#) |
