@@ -61,3 +61,4 @@
 | [スマート地図ミートアップ](2024-01-16.md) | [2024-01-16](2024-01-16.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20240116T1230&p1=1440&ah=1) | [Register](#) |
 | [UN Smart Maps - Pacific and Strategy meeting](2024-01-19.md) | [2024-01-19](2024-01-19.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=UN+Smart+Maps+-+Pacific+and+Strategy+meeting&iso=20240119T0300&p1=1440&ah=1) | [Register](#) |
 | [スマート地図ミートアップ](2024-01-23.md) | [2024-01-23](2024-01-23.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20240123T1230&p1=1440&ah=1) | [Register](#) |
+| [スマート地図ミートアップ](2024-01-30.md) | [2024-01-30](2024-01-30.md) | [Time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=スマート地図ミートアップ&iso=20240130T1230&p1=1440&ah=1) | [Register](https://github.com/UNopenGIS/7/issues/374) |
