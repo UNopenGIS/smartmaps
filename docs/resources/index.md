@@ -20,4 +20,4 @@ This page is a work in progress. Not everything is what we developed. There are 
 
 ## Use Cases
 
-[Use Cases](./use-cases/)
+[Use Cases](/use-cases/)
