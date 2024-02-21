@@ -10,8 +10,8 @@ const config = {
   tagline: "Keep web maps open for a better world",
   url: "https://unopengis.github.io",
   baseUrl: "/smartmaps/",
-  onBrokenLinks: "warn",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "ignore",
   favicon: "img/favicon.png",
   i18n: {
     defaultLocale: 'en',
@@ -35,7 +35,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          docLayoutComponent: "@theme/DocPage",
+          // docLayoutComponent: "@theme/DocPage",
         },
         blog: {
           showReadingTime: true,
@@ -68,9 +68,28 @@ const config = {
         },
         items: [
           {
+            type: 'dropdown',
             to: "/about",
             position: "left",
-            label: "About"
+            label: "About",
+            items: [
+              {
+                label: "Overview",
+                to: "/about"
+              },
+              {
+                label: "Pledges",
+                to: "/about/pledges"
+              },
+              {
+                label: "Contributors",
+                to: "/about/contributors"
+              },
+              {
+                label: "Brand",
+                to: "/brand"
+              }
+            ]
           },
           {
             label: "Events",
@@ -168,7 +187,7 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid']
+  // themes: ['@docusaurus/theme-mermaid']
 };
 
 module.exports = config;

@@ -10,6 +10,7 @@ This page is a work in progress. Not everything is what we developed. There are 
 
 ## Resources
 
+- [UN Smart Maps Learning Hub](https://unopengis.github.io/learning/)
 ### Mapping Projects
 
 - UN Open GIS Initiative - [UN Open GIS Initiative](https://unopengis.org/)

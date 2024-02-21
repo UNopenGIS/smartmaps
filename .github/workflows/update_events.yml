@@ -1,0 +1,27 @@
+name: Update Events
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at 00:00 UTC
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-events:
+    runs-on: ubuntu-latest
+    container:
+      image: lacmta/geodb-base
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: pip install --no-cache-dir -r requirements.txt
+      - name: Run script
+        run: python .scripts/events_updater.py
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[Auto] Update events"
+          commit_user_name: "GitHub Actions"
+          commit_user_email: "github-actions@github.com"
