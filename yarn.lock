@@ -5181,6 +5181,13 @@ csstype@^3.0.2:
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.1.2.tgz"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
+csv-parser@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/csv-parser/-/csv-parser-3.0.0.tgz#b88a6256d79e090a97a1b56451f9327b01d710e7"
+  integrity sha512-s6OYSXAK3IdKqYO33y09jhypG/bSDHPuyCme/IdEHfWpLf/jKcpitVFyOC6UemgGk8v7Q5u2XE0vvwmanxhGlQ==
+  dependencies:
+    minimist "^1.2.0"
+
 cytoscape-cose-bilkent@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/cytoscape-cose-bilkent/-/cytoscape-cose-bilkent-4.1.0.tgz"
@@ -9807,7 +9814,6 @@ react-router@5.3.4, react-router@^5.3.3, react-router@^5.3.4:
     react-is "^16.6.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
-
 react-textarea-autosize@~8.3.2:
   version "8.3.4"
   resolved "https://registry.yarnpkg.com/react-textarea-autosize/-/react-textarea-autosize-8.3.4.tgz#270a343de7ad350534141b02c9cb78903e553524"

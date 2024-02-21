@@ -99,8 +99,18 @@ const config = {
           {
             label: "Resources",
             position: "left",
-            to: "/resources"
+            to: "/resources",
+            items: [
+              {
+                label: 'Presentations',
+                to: '/resources/presentations',
+              },
+              {
+                label: 'Use-Cases',
+                to: '/resources/use-cases',
+              }]
           },
+          
           // { to: "/get-involved", label: "Get Involved", position: "left" },
           {
             type: 'dropdown',
