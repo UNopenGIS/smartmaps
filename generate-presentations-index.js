@@ -15,16 +15,16 @@ fs.createReadStream('presentations.csv')
         let markdownEN = '# Presentations\n\n';
         let markdownJP = '# プレゼンテーション\n\n'; // Translated "Presentations"
 
-        markdownEN += '| Title | Date |Speaker | Link | Keywords |\n';
-        markdownEN += '| ----- | ---- | ------- | ---- | -------- |\n';
+        markdownEN += '| Title | Date | Speaker | Keywords |\n';
+        markdownEN += '| ----- | ---- | ------- | -------- |\n';
 
-        markdownJP += '| タイトル | 日付 | スピーカー | リンク | キーワード |\n'; // Translated headers
-        markdownJP += '| ------ | ---- | -------- | ---- | -------- |\n';
+        markdownJP += '| タイトル | 日付 | スピーカー | キーワード |\n'; // Translated headers
+        markdownJP += '| ------ | ---- | -------- | -------- |\n';
 
         presentations.forEach((presentation) => {
-            markdownEN += `| ${presentation["presentation title"]} | ${presentation.date} | ${presentation.speaker} | [Link](${presentation.link}) | ${presentation.keywords} |\n`;
-
-            markdownJP += `| ${presentation["presentation title"]} | ${presentation.date} | ${presentation.speaker} | [リンク](${presentation.link}) | ${presentation.keywords} |\n`; // Translated "Link"
+            let presentationRow = `| [${presentation['presentation title']}](${presentation.link}) | ${presentation.date} | ${presentation.speaker} | ${presentation.keywords} |\n`;
+            markdownEN += presentationRow;
+            markdownJP += presentationRow;
         });
 
         fs.writeFileSync('docs/resources/presentations/index.md', markdownEN);
