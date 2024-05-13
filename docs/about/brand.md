@@ -21,9 +21,9 @@
 
 | Color Name | Color Preview | RGB | Hex | Description |
 |------------|---------------|-----|-----|-------------|
-| Smart Blue | <div style="background-color:#5c81b8; width:30px; height:30px;"></div> | rgb(92, 129, 184) | #5c81b8 | Represents innovation, clarity, and the open exchange of knowledge and resources within our community. |
-| Collaboration Green | <div style="background-color:#97be84; width:30px; height:30px;"></div> | rgb(151, 190, 132) | #97be84 | Signifies the spirit of cooperation and unity within our community. |
-| Innovation Red | <div style="background-color:#de8181; width:30px; height:30px;"></div> | rgb(222, 129, 129) | #de8181 | Embodies our commitment to innovation and forward-thinking practices in geospatial technology. |
+| Smart Blue | ![Smart Blue](/img/smart_blue.svg) | rgb(92, 129, 184) | #5c81b8 | Represents innovation, clarity, and the open exchange of knowledge and resources within our community. |
+| Collaboration Green | ![Collaboration Green](/img/collaboration_green.svg) | rgb(151, 190, 132) | #97be84 | Signifies the spirit of cooperation and unity within our community. |
+| Innovation Red | ![Innovation Red](/img/innovation_red.svg) | rgb(222, 129, 129) | #de8181 | Embodies our commitment to innovation and forward-thinking practices in geospatial technology. |
 
 The UN Smart Maps Color Scheme is comprised of three key colors: Smart Blue, Collaboration Green, and Innovation Red. Each color is carefully selected to visually represent the values and principles of the UN Smart Maps Group and its initiatives, fostering a sense of identity and unity within our community while facilitating recognition of our work and objectives.
 
