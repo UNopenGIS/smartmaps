@@ -87,7 +87,7 @@ const config = {
               },
               {
                 label: "Brand",
-                to: "/brand"
+                to: "/about/brand"
               }
             ]
           },
