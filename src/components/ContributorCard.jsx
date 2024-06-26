@@ -10,7 +10,7 @@ function ContributorCard({ username, role }) {
     }, [username]);
 
     // Always link to the GitHub profile as a fallback
-    const profileUrl = `/about/people/${username}`; // Your logic here to determine if the profile exists, else fallback to GitHub profile
+    const profileUrl = `./about/people/${username}`; // Your logic here to determine if the profile exists, else fallback to GitHub profile
     const githubUrl = `https://github.com/${username}`;
 
     return (
