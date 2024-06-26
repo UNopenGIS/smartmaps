@@ -8,6 +8,12 @@ sidebar_position: 1
 
 UN Smart Maps will be hosting a series of events to build an international community of mappers. See the [events page](./events) for more information.
 
+## Smart Challenges
+
+The UN Smart Maps initiative is excited to engage young professionals and college students in developing innovative GIS solutions. Our challenges are designed to address real-world problems and provide participants with the opportunity to showcase their skills and creativity.
+
+- [Join a Challenge](./challenges)
+
 ## Community Meetings
 
 UN Smart Maps hosts community meetings to discuss the project and its objectives. See the [community meetings page](./community-meetings) for more information.
