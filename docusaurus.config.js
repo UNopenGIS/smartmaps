@@ -119,7 +119,7 @@ const config = {
             items: [
 				{
 					label: 'Smart Challenges',
-					to: '/get-involved/smart-challenges',
+					to: '/get-involved/challenges',
 				},
               {
                 label: 'Volunteer',
