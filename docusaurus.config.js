@@ -117,6 +117,10 @@ const config = {
             label: 'Get Involved',
             position: 'left',
             items: [
+				{
+					label: 'Smart Challenges',
+					to: '/get-involved/smart-challenges',
+				},
               {
                 label: 'Volunteer',
                 to: '/get-involved/volunteer',
