@@ -37,13 +37,6 @@ function HomepageHeader() {
                 Join UN Smart Maps
               </Translate>
            </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/events">
-              <Translate>
-                See upcoming events
-              </Translate>
-           </Link>
         </div>
       </div>
     </header>
