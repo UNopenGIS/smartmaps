@@ -41,7 +41,7 @@ The UN Smart Maps brand uses the following typefaces:
 - [Futura](https://fonts.adobe.com/fonts/futura-pt) for headings
 
 ## Provisonal logo
-![provisional logo 2](./media/dwg7-provisional-logo-2.jpg)
+![smart-maps-logo](/img/smart-maps-logo.svg)
 
 ## Provisional social preview image
 
