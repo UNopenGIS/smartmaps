@@ -1,7 +1,12 @@
 # UN Smart Maps Documentation
 
-This is the documentation for the UN Smart Maps project for interested and existing volunteers. This website is built using [Docusaurus 2](https://docusaurus.io/).
+**⚠️ NOTICE: This site has been archived and redirects to https://unopengis.org/DWG7.html**
 
+**⚠️ 注意: このサイトはアーカイブされ、https://unopengis.org/DWG7.html にリダイレクトされます**
+
+---
+
+This is the documentation for the UN Smart Maps project for interested and existing volunteers. This website is built using [Docusaurus 2](https://docusaurus.io/).
 
 このドキュメントは、UN Smart Mapsプロジェクトに興味を持っている方や、既存のボランティアの方向けのドキュメントです。このウェブサイトは[Docusaurus 2](https://docusaurus.io/)を使用して構築されています。
 

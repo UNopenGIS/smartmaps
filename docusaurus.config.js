@@ -6,12 +6,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "UN Smart Maps",
-  tagline: "Keep web maps open for a better world",
+  title: "UN Smart Maps - Redirecting",
+  tagline: "This site has moved to unopengis.org",
   url: "https://unopengis.github.io",
   baseUrl: "/smartmaps/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
+  trailingSlash: false,
   favicon: "img/favicon.png",
   i18n: {
     defaultLocale: 'en',
